@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    color: white; 
+    padding: 10px; 
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Set the font size for the logo */
+    float: left;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 15px; /* Add margin between nav items */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the text color for links */
+  }
+  
+  /* Change link color on hover */
+  .nav-links a:hover {
+    color: lightblue;
+  }
+  
